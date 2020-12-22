@@ -1,0 +1,50 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --no-color packages get
+
+## exception
+
+ProcessException: ProcessException: The directory name is invalid.
+
+  Command: C:\src\flutter\bin\cache\dart-sdk\bin\pub.bat --verbosity=warning get --no-precompile
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 1.22.0, on Microsoft Windows [Version 10.0.18363.1256], locale en-IN)
+    • Flutter version 1.22.0 at C:\src\flutter
+    • Framework revision d408d302e2 (3 months ago), 2020-09-29 11:49:17 -0700
+    • Engine revision 5babba6c4d
+    • Dart version 2.10.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    • Android SDK at D:\software\adt-bundle-windows-x86_64-20140702\sdk
+    • Platform android-30, build-tools 29.0.3
+    • ANDROID_HOME = D:\software\adt-bundle-windows-x86_64-20140702\sdk
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+[✓] Android Studio (version 3.6)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 44.0.2
+    • Dart plugin version 192.7761
+    • Java version OpenJDK Runtime Environment (build 1.8.0_212-release-1586-b04)
+
+[✓] Connected device (4 available)
+    • MAR LX2 (mobile) • TRJDU19411002640 • android-arm64  • Android 10 (API 29)
+    • Web Server (web) • web-server       • web-javascript • Flutter Tools
+    • Chrome (web)     • chrome           • web-javascript • Google Chrome 87.0.4280.88
+    • Edge (web)       • edge             • web-javascript • Microsoft Edge 87.0.664.66
+
+• No issues found!
+```
